@@ -1,0 +1,17 @@
+{
+  "features": {
+    "inline_completion_provider": "copilot"
+  },
+  "lsp": {
+    "tailwindcss-language-server": {
+      "settings": {
+        "experimental": {
+          "classRegex": [
+            ["cva\\(((?:[^()]|\\([^()]*\\))*)\\)", "[\"'`]?([^\"'`]+)[\"'`]?"],
+            ["cx\\(((?:[^()]|\\([^()]*\\))*)\\)", "(?:'|\"|`)([^']*)(?:'|\"|`)"]
+          ]
+        }
+      }
+    }
+  }
+}
